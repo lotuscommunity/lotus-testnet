@@ -168,7 +168,7 @@ the Docker account where the VFN is connected.
 https://github.com/0LNetworkCommunity/libra-framework/raw/921d38b750b6a9529df9f0c7f88f5227bfc6a0de/util/fixtures/mnemonic/alice.mnem
 If you installed VFN outside the container, remember to enter the container `alice`,
 modify `~/.libra/operator.yaml`, and run `libra txs validator update` to ensure smooth synchronization.
-If you're in the genesis-post validator, enter the mnemonic for your own account. That's all.
+If you're in the genesis-post validator, enter the mnemonic for your own account, modify seed_addrs in `~/.libra/validator.yaml` with VFN's.
    
 Note: 
 If you are a post-genesis Validator participating in the Testnet,
